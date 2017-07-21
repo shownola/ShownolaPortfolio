@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :portfolios, except: [:show]
+  get 'node-items', to: 'portfolios#node'
   get 'portfolio/:id', to: 'portfolios#show', as: 'portfolio_show'
   
  
