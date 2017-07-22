@@ -1,7 +1,9 @@
 class PortfoliosController < ApplicationController
+  layout 'portfolio'
   
   def index
     @portfolio_items = Portfolio.all
+   
   end
   
   def node
@@ -43,6 +45,7 @@ class PortfoliosController < ApplicationController
   
   def show
     @portfolio_item = Portfolio.find(params[:id])
+    @seo_keywords = @portfolio_item.body
   end
   
   def destroy
