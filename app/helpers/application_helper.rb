@@ -17,6 +17,10 @@ module ApplicationHelper
     end 
  end
  
+ def copyright_generator
+   ShownolaViewTool::Renderer.copyright 'Shownola', 'all rights'
+ end
+ 
 end
 
 
