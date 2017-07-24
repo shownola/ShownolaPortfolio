@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/shownola/shownola_view_tool
+  revision: c86b92dd221cb55865677433a76a6d7e94eba671
+  specs:
+    shownola_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -202,6 +208,7 @@ DEPENDENCIES
   puma (~> 3.7)
   rails (~> 5.1.2)
   sass-rails (~> 5.0)
+  shownola_view_tool!
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
