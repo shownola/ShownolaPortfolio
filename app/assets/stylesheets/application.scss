@@ -26,11 +26,24 @@ a:hover {
 /*
  * Base structure
  */
+ 
+
+
 
 html,
 body {
   height: 100%;
+  font-family: 'Raleway', sans-serif;
  /*  background-color: #333; */
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5, 
+h6, .h6 {
+  font-family: 'Ubuntu', sans-serif;
 }
 body {
   color: #fff;
@@ -211,8 +224,46 @@ body {
   margin: 20px;
 }
 .tech-news a {
-  color: #52E3FB;
+  color: #2E86CB;
 }
 .tech-news > .card {
   padding: 30px;
 }
+.app-card-container {
+  color: #094460;
+  text-align: left;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.app-card-container {
+ -webkit-box-shadow: -9px 13px 38px 5px rgba(48,49,66,1);
+-moz-box-shadow: -9px 13px 38px 5px rgba(48,49,66,1);
+box-shadow: -9px 13px 38px 5px rgba(48,49,66,1);
+}
+.app-card-container > .card {
+  padding: 15px;
+}
+.profile-image {
+  border: 1px solid #094460;
+  border-radius: 30px;
+}
+iframe {
+  -webkit-box-shadow: -9px 13px 38px 5px rgba(48,49,66,1);
+-moz-box-shadow: -9px 13px 38px 5px rgba(48,49,66,1);
+box-shadow: -9px 13px 38px 5px rgba(48,49,66,1);
+}
+.address {
+  margin-left: 45px;
+}
+.app-card-container .card h1 {
+  text-align: center;
+}
+.app-card-container a {
+  color: #2E86CB;
+}
+.card-block {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
