@@ -220,6 +220,7 @@ body {
   color: #094460;
   text-align: left;
   border-radius: 5px;
+  margin-left: 20px;
 }
 .app-card-container {
  -webkit-box-shadow: -9px 13px 38px 5px rgba(48,49,66,1);
@@ -227,7 +228,7 @@ body {
 box-shadow: -9px 13px 38px 5px rgba(48,49,66,1);
 }
 .app-card-container > .card {
-  padding: 40px;
+  padding: 15px;
 }
 .profile-image {
   border: 1px solid #094460;
@@ -251,3 +252,5 @@ box-shadow: -9px 13px 38px 5px rgba(48,49,66,1);
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+
